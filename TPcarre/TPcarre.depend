@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1477049920 source:c:\users\grushkov\desktop\ludus\2è année\algo\tp_carre\tpcarre\main.c
+	<stdio.h>
+	<stdlib.h>
+

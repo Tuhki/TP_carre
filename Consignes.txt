@@ -1,0 +1,10 @@
+Faire un carré tel que si la 1ère valeur rentrée est 10 et la 2è 5, le carré ressemblera à ça :
+**********
+*++++++++*
+*++++++++*
+*++++++++*
+**********
+
+8+ par lignes
+
+Faire l'algo sur word ou en commentaire et rendre aussi le code source en C

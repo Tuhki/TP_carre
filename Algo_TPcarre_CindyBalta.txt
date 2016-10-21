@@ -1,0 +1,39 @@
+ALGORITHME	: carre
+//BUT		: faire un carré de bords * et rempli de +
+//ENTREE	: longueur des côtés saisies par l'utilisateur
+//SORTIE	: carré avec des bordures * des longueurs choisies et rempli de +
+
+CONST
+	etoile 	<- "*" : CAR
+	plus 	<- "+" : CAR
+
+VAR	
+	nb1	: ENTIER
+	nb2	: ENTIER
+	i	: ENTIER
+	j	: ENTIER
+
+
+
+DEBUT
+	i <- 0
+
+	ECRIRE « Entrez deux nombres »
+	LIRE nb1, nb2
+
+	POUR i DE 0 A nb2 FAIRE
+	DEBUT
+		POUR j DE 0 A nb1 FAIRE
+		DEBUT
+			SI (i=0) OU (i=nb2) OU (j=0) OU (j=nb1) ALORS
+			DEBUT
+				ECRIRE etoile
+			FIN
+			SINON
+			DEBUT
+				ECRIRE plus
+			FIN
+		FIN
+	FIN
+
+FIN
